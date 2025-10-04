@@ -8,6 +8,6 @@ build:
 	uv build
 
 package-install:
-	uv tool install "#!/bin/sh/dist/*.whl"
+	uv tool install --force "#!/bin/sh/dist/*.whl"
 
 
