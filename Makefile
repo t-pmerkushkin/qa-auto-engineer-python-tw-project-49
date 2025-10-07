@@ -15,3 +15,6 @@ lint:
 
 brain-even:
 	uv run --active brain-even
+
+brain-calc:
+	uv run --active brain-calc
