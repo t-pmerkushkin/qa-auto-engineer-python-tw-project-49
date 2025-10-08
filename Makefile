@@ -18,3 +18,6 @@ brain-even:
 
 brain-calc:
 	uv run --active brain-calc
+
+brain-gcd:
+	uv run --active brain-gcd
