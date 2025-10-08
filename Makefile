@@ -24,3 +24,6 @@ brain-gcd:
 
 brain-progression:
 	uv run --active brain-progression
+
+brain-prime:
+	uv run --active brain-prime
