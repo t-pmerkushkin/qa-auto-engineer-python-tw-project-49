@@ -8,7 +8,7 @@ def even_odd_game():
     correct = 0
     name = input("May I have your name? ")
     print(f"Hello, {name}!")
-    print("Answer 'yes' if number even otherwise answer 'no'.")
+    print("""Answer "yes" if the number is even, otherwise answer "no".""")
     while correct < 3:
         num = randint(1, 20)
         print(f"Question: {num}")
@@ -21,7 +21,7 @@ def even_odd_game():
 
         else:
             print(
-                f"{user_answer} is wrong answer ;(. Correct answer was {'yes' if is_even(num) else 'no'}.\nLet's try again, {name}!")
+                f"""'{user_answer}' is wrong answer ;(. Correct answer was '{'yes' if is_even(num) else 'no'}'.\nLet's try again, {name}!""")
             return
 
     print(f"Congratulations, {name}!")

@@ -19,7 +19,7 @@ def brain_progression():
             correct_rounds += 1
             print('Correct')
         else:
-            print(f"{user_answer} is wrong answer ;(. Correct answer was {correct}. Let's try again, {name}!")
+            print(f"""'{user_answer}' is wrong answer ;(. Correct answer was '{correct}'.\nLet's try again, {name}!""")
             return
     print(f"Congratulations, {name}!")
 

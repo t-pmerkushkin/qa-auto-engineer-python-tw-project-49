@@ -23,7 +23,7 @@ def brain_calc():
                 correct += 1
                 print('Correct')
             else:
-                print(f"{user_answer} is wrong answer ;(. Correct answer was {result}. Let's try again, {name}!")
+                print(f"""'{user_answer}' is wrong answer ;(. Correct answer was '{result}'.\nLet's try again, {name}!""")
                 return
         except ValueError:
             print('Incorrect, you need enter a number')

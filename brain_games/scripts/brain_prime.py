@@ -23,7 +23,7 @@ def brain_prime():
             correct_rounds += 1
             print('Correct')
         else:
-            print(f"{user_answer} is wrong answer ;(. Correct answer was {correct_answer}. Let's try again, {name}!")
+            print(f"""'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.\nLet's try again, {name}!""")
             return
     print(f"Congratulations, {name}!")
 
