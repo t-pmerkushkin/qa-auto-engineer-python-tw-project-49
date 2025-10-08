@@ -21,3 +21,6 @@ brain-calc:
 
 brain-gcd:
 	uv run --active brain-gcd
+
+brain-progression:
+	uv run --active brain-progression
