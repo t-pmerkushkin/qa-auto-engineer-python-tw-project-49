@@ -15,7 +15,7 @@ def brain_prime():
     name = input("May I have your name? ")
     print(f"Hello, {name}!")
     correct_rounds = 0
-    print("Answer 'yes' if given number is prime. Otherwise answer 'no'.")
+    print("""Answer "yes" if given number is prime. Otherwise answer "no".""")
     while correct_rounds < 3:
         n = choice(range(1, 100))
         correct_answer = 'yes' if is_prime(n) else 'no'
