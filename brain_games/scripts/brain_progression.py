@@ -5,7 +5,7 @@ def brain_progression():
     name = input("May I have your name? ")
     correct_rounds = 0
     print(f"Hello, {name}!")
-    print('What number is missing in this progression?')
+    print('What number is missing in the progression?')
     while correct_rounds < 3:
         start = choice(range(1, 10))
         step = choice(range(1, 5))
