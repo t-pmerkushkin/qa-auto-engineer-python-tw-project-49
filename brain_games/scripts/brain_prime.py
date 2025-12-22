@@ -13,6 +13,7 @@ def is_prime(num):
 
 def brain_prime():
     name = input("May I have your name? ")
+    print(f"Hello, {name}!")
     correct_rounds = 0
     print("Answer 'yes' if given number is prime. Otherwise answer 'no'.")
     while correct_rounds < 3:
