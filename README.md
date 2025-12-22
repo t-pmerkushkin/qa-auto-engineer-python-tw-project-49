@@ -8,3 +8,6 @@
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=t-pmerkushkin_qa-auto-engineer-python-tw-project-49&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=t-pmerkushkin_qa-auto-engineer-python-tw-project-49)
 
 [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=t-pmerkushkin_qa-auto-engineer-python-tw-project-49&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=t-pmerkushkin_qa-auto-engineer-python-tw-project-49)
+
+asciinema:
+ https://asciinema.org/a/YaGpLGYHzdMO6ady1jlrEYktA
