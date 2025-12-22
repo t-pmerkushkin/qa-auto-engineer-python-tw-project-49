@@ -18,11 +18,11 @@ def brain_gcd():
                 print('Correct')
                 correct += 1
             else:
-                print('Incorrect')
+                print(f"""'{user_answer}' is wrong answer ;(. 
+                \nCorrect answer was '{result}'.\nLet's try again, {name}!""")
                 return
         except ValueError:
-            print(f"""'{user_answer}' is wrong answer ;(. 
-            \nCorrect answer was '{result}'.\nLet's try again, {name}!""")
+            print('Incorrect, you need enter a number')
             return
     print(f"Congratulations, {name}!")
 
