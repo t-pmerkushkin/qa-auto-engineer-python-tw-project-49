@@ -10,11 +10,12 @@ def brain_progression():
         start = choice(range(1, 10))
         step = choice(range(1, 5))
         length = 5
-        hidden_index = choice(range(0, length - 1))
+        hidden_index = choice(range(0, length))
         progression = [start + step * i for i in range(length)]
         correct = progression[hidden_index]
         progression[hidden_index] = '..'
-        print(f"Question: {progression}")
+        progression_str = ' '.join(map(str, progression))
+        print(f"Question: {progression_str}")
         user_answer = int(input('Your answer: ').strip())
         if user_answer == correct:
             correct_rounds += 1
